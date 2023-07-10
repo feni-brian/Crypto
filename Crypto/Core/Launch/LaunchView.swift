@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// This is the view you see once the app launches on th phone.
 struct LaunchView: View {
     @Binding var isLoading: Bool
     @State private var showLoadingAnimation: Bool = false
