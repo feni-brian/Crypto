@@ -8,7 +8,7 @@
 import SwiftUI
 
 // MARK: - HomeView
-
+// This is the content view.
 struct HomeView: View {
     @EnvironmentObject private var vm: HomeViewModel
     @State private var showPortfolio: Bool = false
